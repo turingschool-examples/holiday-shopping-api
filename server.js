@@ -23,7 +23,9 @@ app.post('/items', (req, res) => {
   checkCorrectDataType(requiredParams, newItem, res);
 
   app.locals.items.push(newItem);
-  res.status(201).json(newItem);
+  res.status(201).json({
+    message: `Item #${newItem.id} has been added!`
+  });
 });
 
 app.delete('/items/:id', (req, res) => {
