@@ -1,6 +1,6 @@
 # Holiday Shopping API
 
-This repo was created to be used with the winter break optional project. 
+This repo was created to be used with the winter break advent calendar.
 
 ## Set Up
 
